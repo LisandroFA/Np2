@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Programa Satelital</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="jumbotron text-center">
+        <h1>Programa Satelital de Telecomunicaciones Argentino</h1>
+    </div>
+    <br>
+
+    <div class="container">
+        <br>
+        <ul class="nav nav-pills" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" data-toggle="pill" href="#inicio">Inicio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="pill" href="#arsat1">Arsat 1</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="pill" href="#arsat2">Arsat 2</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="pill" href="#adivinanza">Adivinanza</a>
+            </li>
+        </ul>
+
+        <div class="tab-content">
+            <div id="inicio" class="container tab-pane active"><br>
+                <h3>Inicio</h3>
+                <div class="container">
+                    <h2>Informacion útil</h2>
+                    <table class="table table-dark table-striped">
+                        <thead>
+                            <tr>
+                                <th>Empresa</th>
+                                <th>Email</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>INVAP</td>
+                                <td>
+                                    <p><a href="https://www.invap.com.ar/areas/espacial/">Pagina Web de INVAP</a></p>
+                                </td>
+                            </tr>
+
+
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Default form login -->
+                <form class="text-center border border-light p-5" action="#!">
+
+                    <p class="h4 mb-4">Ingresar</p>
+
+                    <!-- Email -->
+                    <input type="email" id="defaultLoginFormEmail" class="form-control mb-4" placeholder="E-mail">
+
+                    <!-- Password -->
+                    <input type="password" id="defaultLoginFormPassword" class="form-control mb-4" placeholder="Contraseña">
+
+                    <div class="d-flex justify-content-around">
+                        <div>
+                            <!-- Remember me -->
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="defaultLoginFormRemember">
+                                <label class="custom-control-label" for="defaultLoginFormRemember">Recordar Usuario</label>
+                            </div>
+                        </div>
+                        <div>
+                            <!-- Forgot password -->
+                            <a href="">Olvidaste la contraseña?</a>
+                        </div>
+                    </div>
+
+                    <!-- Sign in button -->
+                    <button class="btn btn-info btn-block my-4" type="submit">Iniciar sesión</button>
+
+                    <!-- Register -->
+                    <p>No tenes cuenta?
+                        <a href="">Registarse</a>
+                    </p>
+
+                    <!-- Social login -->
+                    <p>Ingresar con:</p>
+
+                    <a href="#" class="mx-2" role="button"><i class="fab fa-facebook-f light-blue-text"></i></a>
+                    <a href="#" class="mx-2" role="button"><i class="fab fa-twitter light-blue-text"></i></a>
+                    <a href="#" class="mx-2" role="button"><i class="fab fa-linkedin-in light-blue-text"></i></a>
+                    <a href="#" class="mx-2" role="button"><i class="fab fa-github light-blue-text"></i></a>
+
+                </form>
+                <!-- Default form login -->
+            </div>
+            <div id="arsat1" class="container tab-pane fade"><br>
+                <div class="container">
+                    <img src="C:\Users\lisan\Desktop\Git\Np2\Arsat_1.jpg" class="rounded" class="mx-auto d-block" alt="Satelite" width="645" height="516">
+                    <p>ARSAT-1 es un satélite de comunicaciones geoestacionario operado por la empresa propiedad del Estado argentino ARSAT. Fue construido por la empresa argentina INVAP. Aunque originalmente estaba programado el lanzamiento para mediados
+                        de 2012, este primero fue pospuesto al año 2013. Finalmente el satélite fue lanzado el 16 de octubre de 2014 con el cohete Ariane 5, a cargo de la empresa Arianespace, desde la base espacial establecida en la isla de Kouru de la
+                        Guayana Francesa. Está localizado en el espacio geoestacionario en la longitud 71,8° Oeste, que anteriormente fuera ocupado por el también satélite Argentino Nahuel, al que reemplaza, aproximadamente sobre el paraje Cunare en el
+                        departamento Caquetá en Colombia, y a 36 mil km de la corteza terrestre.
+                    </p>
+                </div>
+            </div>
+            <div id="arsat2" class="container tab-pane fade"><br>
+                <div class="container">
+                    <img src="C:\Users\lisan\Desktop\Git\Np2\Arsat_2.jpg" class="rounded" class="mx-auto d-block" alt="Satelite 2" width="645" height="516">
+                    <p>El ARSAT-2 es un satélite de comunicaciones geoestacionario íntegramente diseñado, construido y ensayado por la empresa argentina INVAP, el cual es operado por la compañía ARSAT, también estatal y argentina. Fue lanzado el 30 de septiembre
+                        de 2015 y está localizado en el slot geoestacionario en la longitud 81 ° oeste. Su cobertura será tanto Sudamérica como gran parte de América del Norte. </p>
+                </div>
+            </div>
+            <div id="adivinanza" class="container tab-pane fade"><br>
+                <div class="container">
+                    <h2>JavaScript Can Validate Input</h2>
+                    <p>Please input a number between 1 and 10:</p>
+                    <input id="numb">
+                    <button type="button" onclick="myFunction()">Submit</button>
+                    <p id="demo"></p>
+                    <script>
+                        function myFunction() {
+                            var x, text;
+                            // Get the value of the input field with id="numb"
+                            x = document.getElementById("numb").value;
+                            // If x is Not a Number or less than one or greater than 10
+                            if (isNaN(x) || x < 1 || x > 10) {
+                                text = "Input not valid";
+                            } else {
+                                text = "Input OK";
+                            }
+                            document.getElementById("demo").innerHTML = text;
+                        }
+                    </script>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
